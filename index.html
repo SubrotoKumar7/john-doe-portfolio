@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <meta name="author" content="Subroto Kumar">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fe04fdc062.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>John Doe Portfolio</title>
+</head>
+<body>
+    <header class="header-area" id="home">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-area">
+                    <a href="#" class="logo"><span>John</span> Doe</a>
+                </div>
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="check">
+                <ul class="main-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span>Hello</span> I'm</p>
+                <h1>John Doe</h1>
+                <h4>Front End Web Developer</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, deserunt?</p>
+                <a href="#about" class="about-btn">About Me</a>
+            </div>
+        </div>
+    </header>
+    <!-- about section -->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h1><span>About</span> Me</h1>
+            </div>
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="assets/img/men.jpg" alt="John Doe">
+                </div>
+                <div class="about-text">
+                    <h3>Personal Info</h3>
+                    <p><b>Name:</b> John Doe</p>
+                    <p><b>Email:</b> johndoe@example.com</p>
+                    <p><b>Birthday:</b> 7 Oct 2000</p>
+                    <p><b>Phone:</b> 0173xxxxxxx</p>
+                    <p><b>Job:</b> Front End Developer</p>
+                    <p><b>Who Am I?:</b> My name is John Doe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio reiciendis reprehenderit aut corrupti iste similique nobis ducimus molestiae illum dolorum. Qui reprehenderit excepturi consequuntur veritatis eligendi quo tempora? Quisquam, dolore!</p>
+                    <button class="hire-btn">Fiverr</button>
+                    <button class="hire-btn">Upwork</button>
+                    <div class="skills">
+                        <h4>My Skills</h4>
+                        <div class="skills-container">
+                            <div class="row">
+                                <label for="#html">HTML5: </label> 
+                                <progress max="100" id="html" min="0" value="90">90%</progress>
+                            </div>
+                            <div class="row">
+                                <label for="#css">CSS3: </label>
+                                <progress max="100" id="css" min="0" value="87">87%</progress>
+                            </div>
+                            <div class="row">
+                                <label for="#js">Javascript: </label>
+                                <progress max="100" id="js" min="0" value="80">80%</progress>
+                            </div>
+                            <div class="row">
+                                <label for="#tailwindcss">Tailwind CSS: </label>
+                                <progress max="100" id="tailwindcss" min="0" value="90">90%</progress>
+                            </div>
+                            <div class="row">
+                                <label for="#react">React: </label>
+                                <progress max="100" id="react" min="0" value="95">95%</progress>
+                            </div>
+                            <div class="row">
+                                <label for="#nextjs">NextJS: </label>
+                                <progress max="100" id="nextjs" min="0" value="85">85%</progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- services section --->
+    <section class="services-area" id="services">
+        <div class="container">
+            <div class="container">
+                <div class="section-header">
+                    <h1><span>My</span> Services</h1>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-brush"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos deleniti aspernatur, debitis ullam nemo iste, vitae quibusdam earum facilis sit culpa, eveniet molestiae neque perspiciatis fugit praesentium mollitia nulla dolorem?</p>
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>Responsive Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos deleniti aspernatur, debitis ullam nemo iste, vitae quibusdam earum facilis sit culpa, eveniet molestiae neque perspiciatis fugit praesentium mollitia nulla dolorem?</p>
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="card-body">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos deleniti aspernatur, debitis ullam nemo iste, vitae quibusdam earum facilis sit culpa, eveniet molestiae neque perspiciatis fugit praesentium mollitia nulla dolorem?</p>
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- project area -->
+    <section class="project-area" id="project">
+        <div class="container">
+            <div class="section-header">
+                <h1><span>Latest</span> Project</h1>
+            </div>
+            <div class="project-container">
+                <div class="project">
+                    <div class="project-img">
+                        <img src="./assets/img/project.png" alt="project">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus minima ducimus adipisci consequuntur culpa sequi, eveniet, corrupti consectetur, corporis libero vitae! Eos excepturi voluptates dolores. Sequi soluta libero sit.</p>
+                        <button class="live">show project</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="./assets/img/project.png" alt="project">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus minima ducimus adipisci consequuntur culpa sequi, eveniet, corrupti consectetur, corporis libero vitae! Eos excepturi voluptates dolores. Sequi soluta libero sit.</p>
+                        <button class="live">show project</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="./assets/img/project.png" alt="project">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus minima ducimus adipisci consequuntur culpa sequi, eveniet, corrupti consectetur, corporis libero vitae! Eos excepturi voluptates dolores. Sequi soluta libero sit.</p>
+                        <button class="live">show project</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="./assets/img/project.png" alt="project">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus minima ducimus adipisci consequuntur culpa sequi, eveniet, corrupti consectetur, corporis libero vitae! Eos excepturi voluptates dolores. Sequi soluta libero sit.</p>
+                        <button class="live">show project</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="./assets/img/project.png" alt="project">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus minima ducimus adipisci consequuntur culpa sequi, eveniet, corrupti consectetur, corporis libero vitae! Eos excepturi voluptates dolores. Sequi soluta libero sit.</p>
+                        <button class="live">show project</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="./assets/img/project.png" alt="project">
+                    </div>
+                    <div class="project-text">
+                        <h2>Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus minima ducimus adipisci consequuntur culpa sequi, eveniet, corrupti consectetur, corporis libero vitae! Eos excepturi voluptates dolores. Sequi soluta libero sit.</p>
+                        <button class="live">show project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Area -->
+    <footer class="footer-area" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h1>Contact Info</h1>
+                    <div class="left-text">
+                        <p>John Doe</p>
+                        <p>Web Developer</p>
+                        <p><b>Phone:</b> 0173xxxxxxx</p>
+                        <p><b>Email:</b> johndoe@mail.com</p>
+                        <address>Ulipur, Kurigram, Bangladesh</address>
+                        <ul>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Github</a></li>
+                            <li><a href="#">Linkedin</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-center">
+                    <h1>Location</h1>
+                    <div class="center-text">
+                        <address>Ulipur, Kurigram, Dhaka, Bangladesh</address>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230112.26512948732!2d89.50943170329529!3d25.6877271086766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2cae8ae57558b%3A0x5e58a2b1e4371c46!2z4KaJ4Kay4Ka_4Kaq4KeB4KawIOCmieCmquCmnOCnh-CmsuCmvg!5e0!3m2!1sbn!2sbd!4v1710668163254!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <h1>Send messeage</h1>
+                    <div class="right-text">
+                        <form action="#">
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                            <input type="tel" name="phone" id="phone" placeholder="Entery your phone">
+                            <textarea name="messeage" id="messeage" cols="30" rows="10">Write something...</textarea>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="design">Website design by : <a href="https://www.linkedin.com/in/subrotokumar7" target="_blank"> Subroto Kumar</a></p>
+    </footer>
+</body>
+</html>
