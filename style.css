@@ -322,6 +322,12 @@ input[type="checkbox"]:checked ~ .main-menu{
 .project-container .project .project-text h2{
     margin: 10px 0;
 }
+.project-container .project .project-text p{
+    color: #333;
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 5px;
+}
 .project-container .project .project-text .live{
     padding: 7px 20px;
     margin: 10px;
